@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div {
+        width: 30rem;
+        border: 1px solid black;
+        margin: auto;
+        padding: 2rem;
+        margin-top: 10rem;
+      }
+
+      input{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <h1>Register</h1>
+
+      <table>
+      <form action="register.php" method="POST">
+        
+          <tr>
+            <td><label for="fullname" name="fullname">fullname</label></td>
+          <td><input type="fullname" name="fullname" id="fullname" /></td>
+          </tr>
+        
+        
+          <tr>
+            <td><label for="username" name="username">username</label></td>
+            <td><input type="username" name="username" id="username" /></td>
+          </tr>
+         
+        
+        
+          <tr>
+            <td><label for="email" name="email">email</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          
+        
+
+        
+          <tr>
+            <td><label for="institusi" name="institusi">institusi</label></td>
+            <td><input type="institusi" name="institusi" id="institusi" /></td>
+          </tr>
+          
+        
+        
+          <tr>
+            <td><label for="password" name="password">password</label></td>
+          <td><input type="password" name="password" id="password" /></td>
+          </tr>
+          
+        
+
+        <a href="login.php">
+          <tr>
+            <td><button type="submit" name="register">Daftar</button></td>
+          </tr>
+          
+        </a>
+      </form>
+    </table>
+    </div>
+  </body>
+</html>

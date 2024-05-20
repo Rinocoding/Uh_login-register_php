@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            
+            width: 20rem;
+            border: 1px solid black;
+            margin:10rem auto; 
+            padding: 20px;
+        }
+        form{
+            margin: auto;
+        }
+        .div-form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input{
+            width: 300px;
+            margin: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div">
+
+         <h1>LOG-IN</h1>
+         <form action="login.php" method="post">
+            <div class="div-form">
+                <label for="email" name="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="password" name="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+         
+            <button type="submit">masuk</button>
+            
+            <p>Belum punya akun ?
+                <a href="register.html">Register disini</a>
+            </p>
+         </form>
+
+    </div>
+</body>
+</html>  
